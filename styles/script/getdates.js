@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentYear = new Date().getFullYear();
     if (currentYearSpan) {
         currentYearSpan.textContent = currentYear;
-       // console.log(Current Year: ${currentYear});
+        // console.log(Current Year: ${currentYear});
     } else {
         console.error('Element with id "currentYear" not found.');
     }
@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     if (modifySpan) {
         modifySpan.textContent = formattedLastModified;
-       // console.log(Last Modified: ${formattedLastModified});
+        // console.log(Last Modified: ${formattedLastModified});
     } else {
         console.error('Element with id "modify" not found.');
     }
-});000
+});

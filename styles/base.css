@@ -5,65 +5,67 @@ body {
 
 
 h1 {
- margin-bottom: 0;
+  margin-bottom: 0;
   background-color: black;
   text-align: center;
   padding: 10px;
   color: white;
 }
 
-  nav {
-    padding: 5px;
-    background-color: gray;
+nav {
+  padding: 5px;
+  background-color: gray;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-around;
-    padding: 8px;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
 }
 
 nav ul li {
-    list-style: none;
+  list-style: none;
 
 
 }
 
 nav ul li a {
-    text-decoration: none;
-    padding: 5px;
-    border: none;
-    color: white;
+  text-decoration: none;
+  padding: 5px;
+  border: none;
+  color: white;
 }
 
 nav ul li a:hover {
-    background-color: var(--text-color-secondary);
-    border-radius: 5px;
-    transition: .5s ease-in-out;
+  background-color: var(--text-color-secondary);
+  border-radius: 5px;
+  transition: .5s ease-in-out;
 }
 
-  h2{
-    background-color: black;
-    text-align: center;
-    border-radius:5px;
-    color: white;
-    margin: 0;
-    
+h2 {
+  background-color: black;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  margin: 0;
+
 }
- 
-  main {
-    display: grid;
-    grid-template-columns: 70% 28%;
-    gap: 2%;
-      margin: 20px 0;   
+
+main {
+  display: grid;
+  grid-template-columns: 70% 28%;
+  gap: 2%;
+  margin: 20px 0;
 }
-.card{
+
+.card {
   border: 1px solid black;
   border-radius: 5px;
 
 
 }
-.card h3{
+
+.card h3 {
   padding: 10px;
   background-color: black;
   text-align: center;
@@ -73,75 +75,85 @@ nav ul li a:hover {
   border-radius: 5px;
   color: white;
 }
-.card-head{
- display: flex; 
+
+.card-head {
+  display: flex;
   padding: 5px;
-  margin: 20px 10px ;
+  margin: 20px 10px;
   justify-content: space-between;
 }
-.card-head img{
-  width: 25%;
-  
-  
-}
-/* .card-head div{  */
-    /* font-style: italic;   */
-    /* font-size: 10px; */
-  
 
-.flag img{
+.card-head img {
+  width: 25%;
+
+
+}
+
+/* .card-head div{  */
+/* font-style: italic;   */
+/* font-size: 10px; */
+
+
+.flag img {
   height: 150px;
   width: 200px;
 }
 
-.flag p{
+.flag p {
   font-size: 14px;
-  font-style: italic; 
-  
+  font-style: italic;
+
 
 }
-.card-head p{
+
+.card-head p {
   font-size: 22px;
   width: 75%;
-  
+
 }
 
-.line{
+.line {
   padding: 5px;
   text-align: center;
 }
-.line p{
+
+.line p {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 5px;
 }
-hr{
+
+hr {
   width: 70%;
   margin: auto;
 }
-.card-body{
+
+.card-body {
   margin: auto;
   height: 100%;
-   display: flex; 
+  display: flex;
   align-items: center;
   height: 80%;
 }
-.card-body ul{
+
+.card-body ul {
   margin: auto;
 }
-.card-body ul li{
+
+.card-body ul li {
   margin: 10px 0;
 }
 
-h3{
+h3 {
   background-color: black;
   border-radius: 5px;
-  text-align: center ;
+  text-align: center;
   color: white;
   margin: 0;
 }
- footer{
+
+footer {
   background-color: black;
   text-align: center;
   color: wheat;
- }ppppp
+}
