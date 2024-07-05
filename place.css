@@ -1,0 +1,178 @@
+body {
+    font-family: roboto Arial;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.container {
+    /* display: flex; if i use this the header will remove */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 0; 
+    
+}
+
+.header {
+
+    background-color: #d9534f;
+    color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+     width: 100%; 
+    text-align: center;
+    
+}
+
+.content {
+    width: 80%;
+    max-width: 800px;
+    /* /* background-image: url(images/elephant.jpg); */
+    
+}
+
+ .place-img {
+    position: relative;
+    border-top: 15px solid green;
+    width: 1350px;
+    height: 500px;
+    margin-bottom: 0; 
+} 
+
+h2 {
+    background-color: green;
+    /* position: absolute; */
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 30px;
+    left: 15px;
+    color: white;
+    margin-left: -25px;
+    /* padding-right: 18px; */
+    padding-left: 15px;
+    
+    
+}
+
+
+
+.data-section,
+.weather-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.data-section {
+    position: absolute;
+    top: 140px;
+    background-color: white;
+    margin-left: 15px;
+    padding-left: 20px;
+
+}
+
+.data-item {
+    margin-top: 10px;
+    padding-right: 50px;
+    text-align: center;
+   
+}
+
+.w1{
+
+    background-color: green;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 30px;
+    left: 15px;
+    color: white;
+    /* padding-right: 18px; */
+    padding-left: 15px;
+    position: relative;
+    margin-left: -30px;
+    /* display: inline-block; */
+    
+    }
+    .w1::after {
+        content: "";
+        background-image: url('images/sunny.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        right: 90px;
+        /* left: 25px; */
+        transform: translateY(-50%);
+      }
+    
+
+.weather-section {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    background-color: white;
+    margin-right: 5px;
+    padding-left: 10px;
+
+    /* flex: 1;
+    text-align: right;  this is from th file */
+}
+
+.weather-item {
+    margin-bottom: 5px;
+    padding-right: 50px;
+    text-align: center;
+
+}
+
+
+footer {
+    padding: 10px;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    margin-top: 0;    
+} 
+
+footer p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+
+
+    .place-img {
+        width: 100%;
+        border-bottom: 4px solid brown;
+    }
+
+
+    .data-section,
+    .weather-section {
+        position: unset;
+        /* flex-direction: column; */
+        align-items: center;
+        
+    }
+
+    h2{
+        background-color: white;
+        color: black;
+    }
+ .w1{
+    background-color: white;
+    color: black;
+    
+ }
+}
+
+ 

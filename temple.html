@@ -8,15 +8,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="temple.css">
+    <link rel="stylesheet" href="temple-large.css">
+    <script src="temple.js"></script>
 
 
 </head>
 <body>
-    <header class="nav-head"> 
-        <h1>Temple Album</h1>
-        <!-- <div class="header"><img src="images/hamburger-menu.svg" alt=" hamburger-menu" > </div>  -->
+    <header> 
+        <div class="logo">
+            <h1>Temple Album</h1>
+        </div>
         
-        <nav>
+        <nav > 
            <ul>
             <li><a href="home" > Home</a></li>
             <li> <a href="old" > Old</a></li>
@@ -24,21 +27,54 @@
             <li><a href="large" >Large</a></li>
             <li><a href="small" >Small</a></li>
            </ul>
-        </nav>
-</header>
+            </nav>
 
+             <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                </div>
+
+</header>
+<h2>Home</h2>
 <main>
-    <p>Home</p>
-    <figure><img src="images/utah temple.jpg" alt="" width="250" height="150" > </figure><figcaption>Utah Temple</figcaption>
-    <figure><img src="images/Aba temple.jpg" alt="" width="250" height="200"></figure><figcaption>Aba Temple</figcaption>
-    <figure> <img src="images/valley oregon.jpg" alt=""  ></figure><figcaption>Valley Oregon</figcaption>
-    <figure><img src="images/accra ghana temple.jpg" alt="" width="250" height="200" ></figure><figcaption>Accra Ghana Temple</figcaption>
-    <figure><img src="images/medford oregon temple.jpg" alt="" width="250" height="200"></figure><figcaption>Medford Oregon Temple</figcaption>
-    <figure><img src="images/oregon state temple.jpg" alt=""></figure><figcaption>Oregon State Temple</figcaption>
-    <figure><img src="images/perth Australia temple.jpg" alt=""></figure><figcaption> Perth Australia</figcaption>
-    <figure><img src="images/provo utah temple.jpg" alt=""></figure><figcaption>Provo Utah Temple</figcaption>
-    <figure><img src="images/rome italy temple.jpg" alt="" width="250" height="200"></figure><figcaption>Rome Italy Temple</figcaption>
-    </main>
+    <div class="temples">
+        <figure class="temple-img">
+            <img src="images/utah temple.jpg" alt="" > 
+            <figcaption>Utah Temple</figcaption>
+        </figure>
+      <figure class="temple-img">
+        <img src="images/Aba temple.jpg" alt="" > 
+        <figcaption>Aba Temple</figcaption>
+    </figure>
+      <figure class="temple-img"> 
+        <img src="images/valley oregon.jpg" alt="" >
+         <figcaption>Valley Oregon</figcaption>
+        </figure>
+        <figure class="temple-img">
+         <img src="images/accra ghana temple.jpg" alt=""  >
+         <figcaption>Accra Ghana Temple</figcaption>
+        </figure>
+      <figure class="temple-img">
+        <img src="images/medford oregon temple.jpg" alt="">
+        <figcaption>Medford Oregon Temple</figcaption>
+    </figure>
+       <figure class="temple-img">
+        <img src="images/oregon state temple.jpg" alt="">
+        <figcaption>Oregon State Temple</figcaption>
+    </figure>        
+      <figure class="temple-img">
+        <img src="images/perth Australia temple.jpg" alt="">
+        <figcaption> Perth Australia</figcaption>
+    </figure>
+      <figure class="temple-img">
+        <img src="images/provo utah temple.jpg" alt="">
+        <figcaption> Provo Utah Temple</figcaption>
+    </figure>
+       <figure class="temple-img"><img src="images/rome italy temple.jpg" alt="">
+        <figcaption>Rome Italy Temple</figcaption>
+    </figure>
+        
+    </div>
+</main>
 
     <footer>
         <p> &copy;<span id="currentYear"></span>🌴 Joy Oluwatofunmi Oyaleke🌴 Nigeria</p>
