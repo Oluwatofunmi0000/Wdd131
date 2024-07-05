@@ -1,0 +1,94 @@
+body{
+    font-family: roboto, arial;
+    font-size: 20px;
+}
+
+/* header,
+ main, 
+ footer{
+    width: 320;
+    margin: 1rem auto;
+    border: 2px solid rgb(233, 228, 228) ;
+    padding: 1rem ;
+    background-color: rgb(163, 163, 221); */
+
+ 
+
+ /* p{
+    text-align: center;
+    margin: 0;
+ } */
+header{
+    margin: 1rem auto;
+    border: 2px solid rgb(233, 228, 228) ;
+    padding: 1rem ;
+    background-color: rgb(163, 163, 221); 
+    
+    }
+
+.nav-head{
+    flex: 1;
+}
+
+    nav {
+        /* flex: 1; */
+        padding: 5px;
+        /* background-color: gray; */
+      }
+      
+      nav ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 8px;
+      }
+      
+      nav ul li {
+        list-style: none;
+      
+      
+      }
+      
+      nav ul li a {
+        text-decoration: none;
+        padding: 5px;
+        border: none;
+        color: white;
+      }
+      
+      nav ul li a:hover {
+        background-color: var(--text-color-secondary);
+        border-radius: 5px;
+        transition: .5s ease-in-out;
+      }
+      
+
+
+
+ main{
+    width: 350px;
+    display: grid;
+    background-color: white;
+    border: 1px solid rgb(233, 228, 228) ;
+    padding: 1rem; 
+   grid-gap: 1rem; 
+   /* grid-template-columns:1fr; */
+   align-items: center;
+}
+
+p, figcaption{
+    text-align: center;
+}
+
+/* figure{
+    width: 150;
+
+} */
+
+
+footer{
+    margin: 1rem auto;
+    border: 2px solid rgb(233, 228, 228) ;
+    /* padding: 1rem ; */
+    background-color: rgb(163, 163, 221); 
+
+}
