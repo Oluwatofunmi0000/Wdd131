@@ -2,7 +2,7 @@ body {
     font-family: roboto Arial;
     margin: 0;
     padding: 0;
-    
+
 }
 
 
@@ -13,8 +13,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin-bottom: 0; 
-    
+    margin-bottom: 0;
+
 }
 
 .header {
@@ -23,25 +23,25 @@ body {
     color: white;
     padding: 10px;
     padding-bottom: 20px;
-     width: 100%; 
+    width: 100%;
     text-align: center;
-    
+
 }
 
 .content {
     width: 80%;
     max-width: 800px;
     /* /* background-image: url(images/elephant.jpg); */
-    
+
 }
 
- .place-img {
+.place-img {
     position: relative;
     border-top: 15px solid green;
     width: 1350px;
-    height: 500px;
-    margin-bottom: 0; 
-} 
+    /* height: 00px; */
+    margin-bottom: 0;
+}
 
 h2 {
     background-color: green;
@@ -55,8 +55,8 @@ h2 {
     margin-left: -25px;
     /* padding-right: 18px; */
     padding-left: 15px;
-    
-    
+
+
 }
 
 
@@ -81,10 +81,10 @@ h2 {
     margin-top: 10px;
     padding-right: 50px;
     text-align: center;
-   
+
 }
 
-.w1{
+.w1 {
 
     background-color: green;
     padding-top: 2px;
@@ -98,22 +98,23 @@ h2 {
     position: relative;
     margin-left: -30px;
     /* display: inline-block; */
-    
-    }
-    .w1::after {
-        content: "";
-        background-image: url('images/sunny.svg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 50px;
-        height: 30px;
-        position: absolute;
-        top: 50%;
-        right: 90px;
-        /* left: 25px; */
-        transform: translateY(-50%);
-      }
-    
+
+}
+
+.w1::after {
+    content: "";
+    background-image: url('images/sunny.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    right: 90px;
+    /* left: 25px; */
+    transform: translateY(-50%);
+}
+
 
 .weather-section {
     position: absolute;
@@ -140,8 +141,8 @@ footer {
     background-color: brown;
     text-align: center;
     color: white;
-    margin-top: 0;    
-} 
+    margin-top: 0;
+}
 
 footer p {
     margin: 5px 0;
@@ -161,18 +162,17 @@ footer p {
         position: unset;
         /* flex-direction: column; */
         align-items: center;
-        
+
     }
 
-    h2{
+    h2 {
         background-color: white;
         color: black;
     }
- .w1{
-    background-color: white;
-    color: black;
-    
- }
-}
 
- 
+    .w1 {
+        background-color: white;
+        color: black;
+
+    }
+}

@@ -39,4 +39,12 @@ document.addEventListener('DOMContentLoaded', () => {
             logo.classList.toggle('hidden');
         });
 
-
+// Add an event listener to the navigation menu links
+navMenu.addEventListener('click', (event) => {
+    // If a link is clicked, close the navigation menu
+    if (event.target.tagName === 'X') {
+      nav.classList.remove('active');
+      hamburger.classList.remove('active');
+    }
+  });
+  
