@@ -26,6 +26,10 @@
    color: black;
  }
 
+ h2{
+  text-align: center;
+}
+
 
  nav {
    padding: 5px;
@@ -62,15 +66,15 @@
 
  main {
    text-align: center;
-    padding: 10px; 
+   padding: 10px;
    margin: 10px auto;
 
 
  }
 
- .temples{
+ .temples {
    display: grid;
-   grid-template-columns: repeat(3,1fr);
+   grid-template-columns: 1fr, 1fr 1fr;
    background-color: white;
    padding: 10px 5px;
    gap: 10px;
@@ -158,7 +162,57 @@
  footer p {
    margin: 5px 0;
  }
- @media (min-width: 480px){
+
+
+
+ @media(max-width:750px) {
+   .temples {
+     grid-template-columns: 1fr;
+   }
+
+    nav {
+    display: none;
+  }
+ 
+  .hamburger {
+    display: block;
+  }
+ 
+  nav.active {
+    width: 100%;
+    display: block;
+  }
+ 
+  nav ul {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+ 
+  nav ul li {
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+  } 
+ }
+
+ @media(min-width:751px) and (max-width:999px) {
+   .temples {
+     grid-template-columns: 1fr 1fr;
+   }
+ }
+
+ @media(min-width:1000px) {
+   .temples {
+     grid-template-columns: 1fr 1fr 1fr;
+   }
+ }
+
+
+
+
+
+ /* @media (min-width: 480px){
   .temples{
     grid-template-columns:  repeat(1, 1fr)
   }
@@ -192,6 +246,7 @@
   }
 
   .temples{
+
     grid-template-columns: repeat( 2, 1fr);
   }
 }
@@ -204,4 +259,4 @@
    }
  } 
 
- 
+  */

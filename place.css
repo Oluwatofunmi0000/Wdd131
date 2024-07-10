@@ -2,6 +2,10 @@ body {
     font-family: roboto Arial;
     margin: 0;
     padding: 0;
+    /* background-image: url("images/elephant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px; */
 
 }
 
@@ -20,6 +24,7 @@ body {
 .header {
 
     background-color: #d9534f;
+    border-bottom: 15px solid green;
     color: white;
     padding: 10px;
     padding-bottom: 20px;
@@ -28,18 +33,18 @@ body {
 
 }
 
-.content {
+content {
     width: 80%;
     max-width: 800px;
-    /* /* background-image: url(images/elephant.jpg); */
+
+
 
 }
 
 .place-img {
     position: relative;
-    border-top: 15px solid green;
     width: 1350px;
-    /* height: 00px; */
+    height: 500px;
     margin-bottom: 0;
 }
 
@@ -93,27 +98,13 @@ h2 {
     margin-right: 30px;
     left: 15px;
     color: white;
-    /* padding-right: 18px; */
     padding-left: 15px;
     position: relative;
     margin-left: -30px;
-    /* display: inline-block; */
+
 
 }
 
-.w1::after {
-    content: "";
-    background-image: url('images/sunny.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50px;
-    height: 30px;
-    position: absolute;
-    top: 50%;
-    right: 90px;
-    /* left: 25px; */
-    transform: translateY(-50%);
-}
 
 
 .weather-section {
@@ -124,8 +115,7 @@ h2 {
     margin-right: 5px;
     padding-left: 10px;
 
-    /* flex: 1;
-    text-align: right;  this is from th file */
+
 }
 
 .weather-item {
@@ -160,7 +150,6 @@ footer p {
     .data-section,
     .weather-section {
         position: unset;
-        /* flex-direction: column; */
         align-items: center;
 
     }
@@ -173,6 +162,32 @@ footer p {
     .w1 {
         background-color: white;
         color: black;
+        /* padding-bottom: 50px; */
 
     }
+
+
+    .place-img2 {
+        width: 100px;
+        background-repeat: no-repeat;
+    }
+
+
+}
+
+@media (max-width:1000px){
+    .w1::after {
+        content: "";
+        background-image: url('images/sunny.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        right: 90px;
+        transform: translateY(-50%);
+    
+    }
+    
 }
