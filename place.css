@@ -105,6 +105,21 @@ h2 {
 
 }
 
+.w1::after {
+    content: "";
+    background-image: url('images/sunny.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    right: 90px;
+    transform: translateY(-50%);
+
+}
+
+
 
 
 .weather-section {
@@ -162,32 +177,9 @@ footer p {
     .w1 {
         background-color: white;
         color: black;
-        /* padding-bottom: 50px; */
 
     }
 
 
-    .place-img2 {
-        width: 100px;
-        background-repeat: no-repeat;
-    }
 
-
-}
-
-@media (max-width:1000px){
-    .w1::after {
-        content: "";
-        background-image: url('images/sunny.svg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 50px;
-        height: 30px;
-        position: absolute;
-        top: 50%;
-        right: 90px;
-        transform: translateY(-50%);
-    
-    }
-    
 }
