@@ -63,20 +63,40 @@
   }
 
 
-   .temples { /*this was temple-card before */
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 16px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .temples img { /*this was temple-card before */
-    max-width: 100%;
+  .temples {
+    padding: 10px 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.temple-card {
     height: auto;
-    border-radius: 4px;
-  }
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.temple-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* .temple-card h2 {
+    font-size: 1.5em;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+} */
+
+.temple-card p {
+    margin: 5px 0;
+    color: var(--text-color-secondary);
+}
 
 
   .hamburger {
@@ -147,51 +167,47 @@ footer {
     margin: 5px 0;
   } 
 
-  @media (min-width: 480px){
-    .temples{
-      grid-template-columns:  repeat(1, 1fr)
+  @media(max-width:750px) {
+    .temples {
+      grid-template-columns: 1fr;
     }
-  }  
+ 
+     nav {
+     display: none;
+   }
   
+   .hamburger {
+     display: block;
+   }
   
-  @media (max-width: 768px) {
-    nav {
-      display: none;
-    }
+   nav.active {
+     width: 100%;
+     display: block;
+   }
   
-    .hamburger {
-      display: block;
-    }
+   nav ul {
+     display: block;
+     margin: auto;
+     text-align: center;
+   }
   
-    nav.active {
-      width: 100%;
-      display: block;
-    }
-  
-    nav ul {
-      display: block;
-      margin: auto;
-      text-align: center;
-    }
-  
-    nav ul li {
-      padding: 10px;
-      font-size: 28px;
-      font-weight: bold;
-    }
-  
-    .temples{
-  
-      grid-template-columns: repeat( 2, 1fr);
+   nav ul li {
+     padding: 10px;
+     font-size: 28px;
+     font-weight: bold;
+   } 
+  }
+ 
+  @media(min-width:751px) and (max-width:999px) {
+    .temples {
+      grid-template-columns: 1fr 1fr;
     }
   }
-  
-   
-  
-     @media (max-width: 1024px) {
-     .temples{
-       grid-template-columns: repeat(3, 1fr);
-     }
-   } 
-  
-   
+ 
+  @media(min-width:1000px) {
+    .temples {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+ 
+ 
