@@ -7,7 +7,7 @@
    font-family: roboto, arial;
    border: 2px solid rgb(233, 228, 228);
    padding: 0;
-   font-optical-sizing: auto;
+   /* font-optical-sizing: auto; */
    font-style: normal;
    border-top: 5px;
    border-bottom: 5px;
@@ -74,7 +74,7 @@
 
  .temples {
    display: grid;
-   grid-template-columns: 1fr, 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
    background-color: white;
    padding: 10px 5px;
    gap: 10px;
