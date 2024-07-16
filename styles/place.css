@@ -9,7 +9,7 @@ body {
 
 }
 
-header {
+.header {
 
     background-color: #d9534f;
     border-bottom: 15px solid green;
@@ -30,18 +30,15 @@ header {
     justify-content: center;
     height: 100vh;
     margin-bottom: 0;
+    
 
 }
 
 
-
-content {
+ content {
     width: 80%;
     max-width: 800px;
-
-
-
-}
+} 
 
 .place-img {
     position: relative;
