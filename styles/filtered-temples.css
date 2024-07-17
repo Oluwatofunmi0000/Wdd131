@@ -22,7 +22,7 @@
  
   h1 {
     padding: 5px;
-    color: black;
+    color: white;
   }
  
   h2{
@@ -156,10 +156,12 @@ footer {
     padding: 10px;
     background-color: rgb(163, 163, 221);
     text-align: center;
+    
   }
  
   footer p {
     margin: 5px 0;
+    color: white;
   } 
 
   @media(max-width:750px) {
