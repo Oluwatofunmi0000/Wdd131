@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 :root {
-  --primary-color: #ec58a2;
+  --primary-color: red;
   --text-color: #ffff;
-  --text-color-secondary: #333333;
-  --primary-background: #364ceb;
+  --text-color-secondary: brown;
+  --primary-background: green;
 }
   * {
     padding: 0;
@@ -12,7 +12,7 @@
   
   body {
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    font-family: roboto, Arial;
     padding: 0;
     margin: 0;
   }
@@ -30,14 +30,12 @@
   }
   
   .hero {
-    /* background-image: url(images/nigeria-image.webp); */
+    background-image: url(images/nigeria-image.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh; /* Use vh unit instead of % */
-    padding: 20px;
-    width: 1350px;
-    height: 500px;
+    height: 70vh; /*Use vh unit instead of % */
+    padding: 20px; 
   }
   
   .data, .weather {
@@ -137,13 +135,13 @@
 
 
   body {
-    font-family: Arial, sans-serif;
+    font-family: roboto, Arial ;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
+    background-color: brown;
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -197,7 +195,7 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: brown;
     color: #fff;
     padding: 1em;
     text-align: center;
