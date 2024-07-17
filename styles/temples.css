@@ -18,7 +18,7 @@
    display: flex;
    /* margin: 1rem auto; */
    padding: 20px;
-   background-color: rgb(163, 163, 221);
+   background-color: purple
   }
 
  h1 {
@@ -155,7 +155,7 @@
 
  footer {
    padding: 10px;
-   background-color: rgb(163, 163, 221);
+   background-color: purple;
    text-align: center;
    color: white;
  }
