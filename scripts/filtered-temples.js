@@ -1,3 +1,4 @@
+
 const temples = [
     {
       templeName: "Aba Nigeria",
@@ -48,27 +49,27 @@ const temples = [
       area: 116642,
       imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
-    // {
-    //   templeName: "Salt Lake",
-    //   location: "Salt Lake City, Utah, United States",
-    //   dedicated: "1893, April, 6",
-    //   area: 253015,
-    //   imageUrl:  "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/ddslt-lake/400x250/saltlake-city-temple-exterior-1518361-wallpaper.jpg"
-    // },
-    // {
-    //     templeName: "Bengaluru India",
-    //   location: "Bengaluru, India",
-    //   dedicated: "TBA",
-    //   area: 40000,
-    //   imageUrl: "images/bengaluru-india.jpg"
-    // },
-    // {
-    //   templeName: "Chicago Illinois",
-    //   location: "Chicago, Illinois, United States",
-    //   dedicated: "1985, August, 9",
-    //   area: 38600,
-    //   imageUrl: "images/chicago illinois.jpg"
-    // },
+    {
+      templeName: "Salt Lake",
+      location: "Salt Lake City, Utah, United States",
+      dedicated: "1893, April, 6",
+      area: 253015,
+      imageUrl: "images/salt-lake.jpg"
+    },
+    {
+      templeName: "Bengaluru India",
+      location: "Bengaluru, India",
+      dedicated: "TBA",
+      area: 40000,
+      imageUrl: "images/bengaluru-india.jpg"
+    },
+    {
+      templeName: "Chicago Illinois",
+      location: "Chicago, Illinois, United States",
+      dedicated: "1985, August, 9",
+      area: 38600,
+      imageUrl: "images/chicago illinois.jpg"
+    },
     // Add more temple objects as needed...
   ];
   
@@ -121,23 +122,29 @@ const temples = [
       // Display all temples by default
       displayTemples(temples);
       
+      // Update footer with the current year and last modified date
 
   });
-  
-
-
   document.addEventListener('DOMContentLoaded', () => {
-    // Get the current year and set it to the span with id 'currentYear'
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.querySelector('nav');
+    const logo = document.querySelector('.logo');
+
+    hamburger.addEventListener('click', () => {
+        nav.classList.toggle('active');
+        hamburger.classList.toggle('active');
+        logo.classList.toggle('hidden');
+    });
+
     const currentYearSpan = document.getElementById('currentYear');
     const currentYear = new Date().getFullYear();
     if (currentYearSpan) {
         currentYearSpan.textContent = currentYear;
-        // console.log(Current Year: ${currentYear});
+        console.log(`Current Year: ${currentYear}`);
     } else {
         console.error('Element with id "currentYear" not found.');
     }
 
-    // Get the last modification date and set it to the span with id 'modify'
     const modifySpan = document.getElementById('modify');
     const lastModified = new Date(document.lastModified);
     const formattedLastModified = lastModified.toLocaleDateString('en-US', {
@@ -149,8 +156,9 @@ const temples = [
     });
     if (modifySpan) {
         modifySpan.textContent = formattedLastModified;
-        // console.log(Last Modified: ${formattedLastModified});
+        console.log(`Last Modified: ${formattedLastModified}`);
     } else {
         console.error('Element with id "modify" not found.');
     }
 });
+  
