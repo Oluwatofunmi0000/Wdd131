@@ -54,21 +54,21 @@ const temples = [
       location: "Salt Lake City, Utah, United States",
       dedicated: "1893, April, 6",
       area: 253015,
-      imageUrl: "images/salt-lake.jpg"
+      imageUrl: "https://www.churchofjesuschrist.org/imgs/92c33bcbf9cf85483e008d6871f8ced5f6d7b661/full/320%2C/0/default"
     },
     {
       templeName: "Bengaluru India",
       location: "Bengaluru, India",
       dedicated: "TBA",
       area: 40000,
-      imageUrl: "images/bengaluru-india.jpg"
+      imageUrl: "https://lh3.googleusercontent.com/p/AF1QipMcZuraz4Bn3-kPf0vBcpxARWRsSpGLPkkkchjm=s680-w680-h510"
     },
     {
       templeName: "Chicago Illinois",
       location: "Chicago, Illinois, United States",
       dedicated: "1985, August, 9",
       area: 38600,
-      imageUrl: "images/chicago illinois.jpg"
+      imageUrl: "https://www.churchofjesuschrist.org/imgs/41f73f53ed9711ec83f6eeeeac1e53c7aa9ac727/full/320%2C/0/default"
     },
     // Add more temple objects as needed...
   ];
