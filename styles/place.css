@@ -30,12 +30,14 @@
   }
   
   .hero {
-    background-image: url(images/nigeria-image.webp);
+    background-image: url("https://unctad.org/sites/default/files/2022-09/2022-09-16_Shutterstock_1481073440_1200x675.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh; /*Use vh unit instead of % */
     padding: 20px; 
+    width: 100%;
+
   }
   
   .data, .weather {
@@ -129,6 +131,13 @@
     }
     .hero{
       border-bottom: 6px solid var(--primary-color);
+      background-image: url("https://as2.ftcdn.net/v2/jpg/02/96/72/69/1000_F_296726927_5E3rrUqdfBh9lA2PLpMNz8AJznBMS0ON.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 70vh; /*Use vh unit instead of % */
+      padding: 20px; 
+      width: 100%;
     }
   }
 

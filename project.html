@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <meta name="description" content="Joy Oyaleke's BYU_Idaho WDD 131 course home  page">
+    <meta name="author" content="Joy Oyaleke">
+    <link rel="stylesheet" href="styles/filtered-temples.css"> 
+    
+
+</head>
+<body>
+    <header> 
+        <div class="logo">
+            <h1>Royaward Furniture</h1>
+        </div>
+        
+        <nav > 
+           <ul>
+            <li><a href="#" id="filterHome">Home</a></li>
+            <li><a href="#" id="filterOld">Old</a></li>
+            <li><a href="#" id="filterNew">New</a></li>
+            <li><a href="#" id="filterLarge">Large</a></li>
+            <li><a href="#" id="filterSmall">Small</a></li>
+           </ul>
+            </nav>
+
+             <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                </div>
+
+</header>
+
+<main>
+    <h2>Home</h2>
+
+    <section class="hero">
+        <img src="images/nigeria-image.webp" alt="">
+    </section>
+    <div id="templeContainer" class="temples">
+          <!-- Dynamically generated temple cards will go here -->
+        </div>
+
+        <script defer src="scripts/filtered-temples.js"></script> 
+</main>
+
+
+    <footer>
+        <p> &copy;<span id="currentYear"></span>🌴 Joy Oluwatofunmi Oyaleke🌴 Nigeria</p>
+        <p>Last Modification: <span id="modify"></span></p>
+    </footer>
+    
+</body>
+</html>
