@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -13,10 +15,12 @@
   }
  
   header {
+    /* position: fixed; */
     display: flex;
     /* margin: 1rem auto; */
     padding: 20px;
-    background-color: purple;
+    background-color: black;
+    margin-bottom: 0px;
  
   }
  
@@ -25,20 +29,33 @@
     color: white;
   }
 
+  h3{
+    color: black;
+    font-family: roboto, Ariel;
+    font-size: 500%;
+  }
+
   .hero {
-    background-image: url(images/nigeria-image.webp);
-    background-position: center; 
+    background-image: url("https://wallpapers.com/images/high/furniture-background-7n0oclsvv3cq5uzj.webp");
+    background-position: top; 
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
-    padding: 20px  ; 
+    height: 120vh;
+    /* padding: 20px;  */
+    width: 100%;
+    margin-top: 0;
+    /* margin-bottom: 0; */
   }
   
  
-  h2{
-    text-align: center;
+  h3{
+         position: absolute;
+        bottom: -20%;
+        left: 2%;
+        color: white;
+        font-size: 500%;     
 }
- 
+  
   nav {
     padding: 5px;
     width: 60%;
@@ -162,17 +179,46 @@
   }
 
  
-footer {
+ footer {
+  margin-top: -20px;
     padding: 10px;
-    background-color: purple;
-    text-align: center;
+    background-color: black;
+    text-align: left;
     
   }
- 
+
+  .footer-head{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    padding-top: 5px;
+    
+  }
+
+  .footer-para{
+    font-size:20px ;
+    margin-left: 30px;
+  }
+
+  .icon-img{
+    background-color: white;
+    /* border: 0, solid, black; */
+    width: 25px;
+    margin-left: 30px;
+    
+}
+ .icon-img, .para{
+  display: inline-block;
+  justify-content: space-between;
+} 
+
+
+
+
   footer p {
     margin: 5px 0;
     color: white;
-  } 
+   }  
 
   @media(max-width:750px) {
     .temples {

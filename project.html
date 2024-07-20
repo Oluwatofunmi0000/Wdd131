@@ -6,7 +6,10 @@
     <title>project</title>
     <meta name="description" content="Joy Oyaleke's BYU_Idaho WDD 131 course home  page">
     <meta name="author" content="Joy Oyaleke">
-    <link rel="stylesheet" href="styles/filtered-temples.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/project.css"> 
     
 
 </head>
@@ -19,10 +22,10 @@
         <nav > 
            <ul>
             <li><a href="#" id="filterHome">Home</a></li>
-            <li><a href="#" id="filterOld">Old</a></li>
-            <li><a href="#" id="filterNew">New</a></li>
-            <li><a href="#" id="filterLarge">Large</a></li>
-            <li><a href="#" id="filterSmall">Small</a></li>
+            <li><a href="#" id="filterOld">Kitchen Furniture</a></li>
+            <li><a href="#" id="filterNew"> Office Arm Chairs </a></li>
+            <li><a href="#" id="filterLarge">Living Room Furniture</a></li>
+            <li><a href="#" id="filterSmall">Bedroom Furniture</a></li>
            </ul>
             </nav>
 
@@ -33,23 +36,44 @@
 </header>
 
 <main>
-    <h2>Home</h2>
-
+  
     <section class="hero">
-        <img src="images/nigeria-image.webp" alt="">
+        <!-- <img src="images/nigeria-image.webp" alt=""> -->
     </section>
+     <!-- I used h3 because h2 is used as item caption is used in javascript -->
+
+    <h3> Welcome To Home Of Interior</h3>
+
+
     <div id="templeContainer" class="temples">
           <!-- Dynamically generated temple cards will go here -->
         </div>
 
-        <script defer src="scripts/filtered-temples.js"></script> 
+        <script defer src="scripts/project.js"></script> 
 </main>
-
-
     <footer>
-        <p> &copy;<span id="currentYear"></span>🌴 Joy Oluwatofunmi Oyaleke🌴 Nigeria</p>
-        <p>Last Modification: <span id="modify"></span></p>
+        <h4 class="footer-head"> ROYAWARD FURNITURE</h4>
+        <p class="footer-para"> Nigeria's leading online Furniture store with the largest collection <br>
+           of living room Furniture, bedroom furniture,<br>
+             kitchen furniture,office furniture & dining roon furniture.<br>
+             we offer a minimun 2 year warranty on all product in our sincere<br>
+              pursuit of and commitment to great quality products</p>
+              <br>
+              <br>
+           <div >
+              <img src="images/location-icon.svg" alt="" class="icon-img">
+              <p class="para"> Plot 9, 21 Road, Opposite Winner Chapel, (Oluwasefunmi Quater)<br>
+                 Off Federal Road, Ado-Ekiti, Ektit-State</p><br><br>
+              <img src="images/email-icon.svg" alt="" class="icon-img">
+              <p class="para"> info@royaward.com.com</p><br><br>
+              <img src="images/phone-icon.svg" alt="" class="icon-img"  >
+              <p class="para">+234(706)02000, +234(819)011100</p><br><br>
+             </div>
+             <p> &copy; 2024 Royaward Furniture. All right reserved. Designed by Joy Tech Girl</p>
+
+
     </footer>
-    
+
+
 </body>
 </html>
