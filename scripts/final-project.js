@@ -1,5 +1,6 @@
 
 const temples = [
+  // list of arm chairs
     {
       templeName: "Adams Arm Chair",
     //   location: "Aba, Nigeria",
@@ -70,7 +71,7 @@ const temples = [
       // area: 38600,
       imageUrl: "https://wallpapers.com/images/high/classic-red-and-black-chair-qyn4sqbkghjfei6t.webp"
     },
-    
+    //  list of kitchen furniture
     {
       templeName: "Minimalistic Kitchen Furniture",
       location: "Chicago, Illinois, United States",
@@ -94,6 +95,13 @@ const temples = [
       area: 38600,
       imageUrl: "https://hips.hearstapps.com/hmg-prod/images/2023-kb-dallas-moredesign-a-653fcca61947c.jpg?crop=0.682xw:1.00xh;0,0&resize=980:*"
     },
+    {
+      templeName: "cabinet Furniture",
+      location: "Chicago, Illinois, United States",
+      dedicated: "1785, August, 9",
+      area: 38600,
+      imageUrl: "https://i.ebayimg.com/thumbs/images/g/ya4AAOSwc6dj0Mly/s-l500.jpg"
+    },
 
     {
       templeName: "HD-Cabinet",
@@ -110,13 +118,20 @@ const temples = [
       area: 38600,
       imageUrl: "https://hips.hearstapps.com/hmg-prod/images/ruby-saunders-tp-saunders-018-ph-trevor-parker-664b78e3b7d3c.jpg?crop=1xw:0.843328335832084xh;center,top&resize=1200:*"
     },
-
+// list of bedroom furniture
     {
       templeName: "Bed furniture 001",
       location: "Chicago, Illinois, United States",
       dedicated: "1985, August, 9",
       area: 4600,
       imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8wXaioIJEKhoDNPErF8h_V_CcJk_aDMA4zQ&s"
+    },
+    {
+      templeName: "Bed furniture 002",
+      location: "Chicago, Illinois, United States",
+      dedicated: "1985, August, 9",
+      area: 4600,
+      imageUrl: "https://www.houseofoak.co.uk/media/catalog/category/chatsworth-bedroom-lifestyle-square.jpg"
     },
 
     {
@@ -153,7 +168,7 @@ const temples = [
       imageUrl: "https://m.media-amazon.com/images/I/81UASooZY8L._AC_UF894,1000_QL80_.jpg"
     },
 
-
+// list of living room furniture
     {
       templeName: " Living Room Furniture 001",
       location: "Manti, Utah, United States",
@@ -241,15 +256,13 @@ const temples = [
       document.getElementById('filterNew').addEventListener('click', () => filterTemples('new'));
       document.getElementById('filterLarge').addEventListener('click', () => filterTemples('large'));
       document.getElementById('filterSmall').addEventListener('click', () => filterTemples('small'));
-      // document.getElementById('filterHome').addEventListener('click', () => displayTemples(temples));
-  
-      // Display all temples by default
-      // displayTemples(temples);
       
-      // Update footer with the current year and last modified date
+      
+     
 
   });
 
+   // hamburger display
   document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.getElementById('hamburger');
     const nav = document.querySelector('nav');

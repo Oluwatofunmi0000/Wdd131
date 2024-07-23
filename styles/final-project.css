@@ -15,25 +15,25 @@
   }
  
   header {
-    /* position: fixed; */
     display: flex;
-    /* margin: 1rem auto; */
     padding: 20px;
     background-color: black;
     margin-bottom: 0px;
  
   }
- 
+
+  
+  
   h1 {
     padding: 5px;
     color: white;
   }
 
-  h3{
+  /* h3{
     color: black;
     font-family: roboto, Ariel;
     font-size: 500%;
-  }
+  } */
 
   .hero {
     background-image: url("https://wallpapers.com/images/high/furniture-background-7n0oclsvv3cq5uzj.webp");
@@ -41,20 +41,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 120vh;
-    /* padding: 20px;  */
     width: 100%;
     margin-top: 0;
-    /* margin-bottom: 0; */
+    
   }
   
  
-  h3{
-         position: absolute;
-        bottom: -20%;
-        left: 2%;
-        color: white;
-        font-size: 500%;     
-}
   
   nav {
     padding: 5px;
@@ -82,7 +74,7 @@
   }
  
   nav ul li a:hover {
-    background-color: var(--text-color-secondary);
+    background-color: orange;
     border-radius: 5px;
     transition: .5s ease-in-out;
 
@@ -202,7 +194,6 @@
 
   .icon-img{
     background-color: white;
-    /* border: 0, solid, black; */
     width: 25px;
     margin-left: 30px;
     
@@ -228,6 +219,21 @@
      nav {
      display: none;
    }
+   .hero{
+    background-image: url("https://t3.ftcdn.net/jpg/05/04/84/14/240_F_504841411_KOZiIakTYGdFH4X2YTOBCJfUd9ywUdPS.jpg");
+    background-position: top; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+
+
+    width: 100%;
+    margin-top: 0;
+    
+
+
+   }
+
   
    .hamburger {
      display: block;
