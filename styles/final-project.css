@@ -9,7 +9,7 @@
     font-family: roboto, arial;
     border: 2px solid rgb(233, 228, 228);
     padding: 0;
-    /* font-style: normal; */
+    font-style: normal;
     border-top: 5px;
     border-bottom: 5px;
   }
